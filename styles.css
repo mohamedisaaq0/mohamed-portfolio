@@ -1,0 +1,25 @@
+.nav-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-name {
+    justify-items: center;
+  }
+  .nav-links {
+    align-items: center;
+  }
+}
