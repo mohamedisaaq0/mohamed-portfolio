@@ -8,12 +8,41 @@
   height: 250px;
   width: 290px;
 }
+.navbar {
+  background-color: transparent !important;
+}
+
+.nav-section-container {
+  background-image: url(./assets/background-images/background-pic.avif);
+  height: 100vh;
+  background-size: cover;
+}
+
+.about-section {
+  background-image: url(./assets/background-images/jeremy-bezanger-pCV-dtzk-uM-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.project-section {
+  background-image: url(./assets/background-images/morgan-richardson-ONJM0-j6XM4-unsplash.jpg);
+  background-size: cover;
+}
+
+.border-img {
+  border: 2px solid rgb(103, 103, 103);
+}
+
+.grey-background {
+  background-color: gainsboro;
+}
 
 @media screen and (max-width: 1024px) {
   nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    /* justify-content: space-between; */
   }
   .nav-elements {
     display: flex;
