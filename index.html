@@ -22,18 +22,19 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Mohamed Hassan's Portfolio</title>
   </head>
-  <body>
+  <body class="has-navbar-fixed-top">
     <nav
-      class="navbar has-shadow pt-2 pb-3 is-flex-wrap-wrap"
+      class="navbar has-shadow pt-2 pb-3 is-flex-wrap-wrap is-fixed-top"
       style="font-family: 'Ubuntu', sans-serif"
     >
       <div class="navbar-start">
-        <i>
-          <img src="./logo.png" width="150" height="75" alt="logo" />
-        </i>
+        <i
+          ><a href="">
+            <img src="./logo.png" width="150" height="75" alt="logo" /> </a
+        ></i>
       </div>
 
-      <div class="nav-elements nav-links">
+      <div class="nav-elements nav-links is-size-5">
         <a href="#about" class="navbar-item nav-element pt-5 pb-5">
           <strong class="">About</strong>
         </a>
@@ -61,5 +62,18 @@
         </a>
       </div>
     </nav>
+
+    <!-- intro -->
+
+    <section class="section is-large" id="about">
+      <h2 class="subtitle">Hi👋, I'm</h2>
+      <h1 class="title is-size-1" style="font-family: 'Ubuntu', sans-serif">
+        Mohamed Hassan.
+      </h1>
+
+      <h2 class="subtitle">Full stack Developer with a passion for coding</h2>
+    </section>
+
+    <!-- about me -->
   </body>
 </html>
