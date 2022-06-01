@@ -19,14 +19,17 @@
 }
 
 .about-section {
-  background-image: url(./assets/background-images/jeremy-bezanger-pCV-dtzk-uM-unsplash.jpg);
+  background-image: url(./assets/background-images/elena-joland-mjeQon0Mh_Q-unsplash.jpg);
   height: 100vh;
   background-size: cover;
+  background-position: center;
+  padding: 16rem 20rem !important;
 }
 
 .project-section {
   background-image: url(./assets/background-images/morgan-richardson-ONJM0-j6XM4-unsplash.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .border-img {
@@ -42,7 +45,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* justify-content: space-between; */
   }
   .nav-elements {
     display: flex;
@@ -55,5 +57,57 @@
   }
   .nav-links {
     align-items: center;
+  }
+  .about-section {
+    padding: 11rem 12rem !important;
+  }
+  .about-section {
+    padding: 10rem 13.5rem !important;
+    background-image: url(./assets/background-images/elena-joland-mjeQon0Mh_Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .subtitle {
+    color: black;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .title-description {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-section {
+    padding: 10rem 9rem !important;
+    background-image: url(./assets/background-images/elena-joland-mjeQon0Mh_Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-section {
+    padding: 10rem 5rem !important;
+    background-image: url(./assets/background-images/elena-joland-mjeQon0Mh_Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-section {
+    padding: 8rem 1rem !important;
+    background-image: url(./assets/background-images/elena-joland-mjeQon0Mh_Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
