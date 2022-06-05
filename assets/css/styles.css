@@ -132,6 +132,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .nav-title {
+    font-size: smaller;
+  }
   .about-section {
     padding-right: 5rem !important;
     background-repeat: no-repeat;
@@ -140,6 +143,13 @@
   }
   .contacts {
     font-size: 0.7rem;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .contacts {
+    font-size: 0.5rem;
     color: black;
   }
 }
