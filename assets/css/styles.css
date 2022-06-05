@@ -146,10 +146,3 @@
     color: black;
   }
 }
-
-@media screen and (max-width: 300px) {
-  .contacts {
-    font-size: 0.5rem;
-    color: black;
-  }
-}
