@@ -2,279 +2,236 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <title>Mohamed Hassan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
   </head>
+
   <body>
-    <div class="nav-section-container">
-      <!-- nav bar-->
-      <nav
-        class="navbar is-transparent pt-2 pb-3 is-flex-wrap-wrap"
-        style="font-family: 'Ubuntu', sans-serif"
-      >
-        <div class="navbar-start">
-          <i
-            ><a href="">
-              <img
-                src="./assets/logo.png"
-                width="150"
-                height="75"
-                alt="logo"
-              /> </a
-          ></i>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero">
+              <h1><span>P</span>ort<span>f</span>olio</h1>
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#projects" data-after="Projects">Projects</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#contact" data-after="Contact">Github</a></li>
+              <li>
+                <a href="https://github.com/mohamedisaaq0" data-after="Contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </section>
+    <!-- End Header -->
 
-        <div class="nav-elements nav-links is-size-5">
-          <a href="#about" class="navbar-item nav-element pt-5 pb-5">
-            <strong class="nav-title">About</strong>
-          </a>
-          <a href="#projects" class="navbar-item nav-element pt-5 pb-5">
-            <strong class="nav-title">Projects</strong>
-          </a>
+    <!-- Hero Section  -->
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>Hello, <span></span></h1>
+          <h1>My Name is <span></span></h1>
+          <h1>Mohamed Hassan<span></span></h1>
+          <a href="#projects" type="button" class="cta">Projects</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./img/profile.jpeg" alt="img" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2>Full Stack Web Developer</h2>
+          <p>
+            I am an experienced problem solver and possess good organizational
+            and management skills. I enjoy working in a grouped environment as
+            well as individually. I have excellent communication skills and can
+            follow tasks/instructions carefully. I'm also a Manchester City fan,
+            who enjoys playing football.
+          </p>
           <a
-            href="./Mohamed_Hassan_CV.docx"
+            href="https://docs.google.com/document/d/1e6tYfTgS9n9GxhY5-7flfew_v-PPdE2M/edit?usp=sharing&ouid=100241470360859695388&rtpof=true&sd=true"
             download
-            class="navbar-item nav-element pt-5 pb-5"
-            ><strong class="nav-title">Resume</strong>
-          </a>
-          <a href="#contacts" class="navbar-item nav-element pt-5 pb-5">
-            <strong class="nav-title">Contacts</strong>
-          </a>
-        </div>
-        <div class="navbar-end nav-elements pr-3">
-          <a
-            href="https://www.linkedin.com/in/mohamedisaaq0/"
-            class="navbar-item"
+            class="cta"
+            >Download Resume</a
           >
-            <i class="fa-brands fa-linkedin fa-2x has-text-link-dark"></i>
-          </a>
-          <a href="https://github.com/mohamedisaaq0" class="navbar-item">
-            <i class="fa-brands fa-github fa-2x has-text-black"></i>
-          </a>
-          <a href="mailto: mohamedisaaq0@gmail.com" class="navbar-item">
-            <i class="fa-solid fa-envelope fa-2x has-text-danger"></i>
-          </a>
         </div>
-      </nav>
-
-      <!-- intro -->
-
-      <section class="section is-medium intro-section">
-        <h2 class="subtitle pl-5">Hi 👋, I'm</h2>
-        <h1
-          class="title is-size-1 pl-5"
-          style="font-family: 'Ubuntu', sans-serif"
-        >
-          Mohamed Hassan.
-        </h1>
-
-        <h2 class="subtitle pl-5">Web Developer with a passion for Coding</h2>
-        <h6 class="subtitle pl-5">
-          <i class="fa-solid fa-location-pin"> </i> Birmingham, UK
-        </h6>
-      </section>
-    </div>
-    <!-- about me -->
-
-    <section class="section is-medium about-section">
-      <h1
-        class="title is-size-1"
-        style="font-family: 'Secular One', sans-serif"
-        id="about"
-      >
-        About me
-      </h1>
-      <br />
-      <h2 class="subtitle">
-        I'm a <strong style="font-size: 17pt">Web Developer</strong>( formerly a
-        Network Engineer ) based in
-        <strong style="font-size: 17pt">Birmingham, UK</strong>. I am an
-        experienced problem solver and possess good organizational and
-        management skills. I enjoy working in a grouped environment as well as
-        individually. I have excellent communication skills and can follow
-        tasks/instructions carefully. I'm also a Manchester City fan, who enjoys
-        playing football.
-      </h2>
-    </section>
-
-    <!-- projects -->
-    <section class="section is-medium project-section">
-      <h1
-        class="title is-size-1"
-        style="font-family: 'Secular One', sans-serif"
-        id="projects"
-      >
-        Projects
-      </h1>
-      <br />
-
-      <!-- book search -->
-      <div class="box grey-background">
-        <article class="media title-description">
-          <figure class="media-left">
-            <img
-              class="image is-250x290 border-img"
-              src="./assets/screenshots/book-search.png"
-            />
-          </figure>
-          <br />
-          <div class="media-content">
-            <div class="content">
-              <h3 class="is">Group project - Book Search</h3>
-              <br />
-              In this Group project, we created a quick book search that allows
-              you to gather together quick relevant information we be believed
-              would be required when looking for a book.
-            </div>
-            <h4><strong>Technologies used:</strong></h4>
-            <p style="color: blue">#Html #Css #Javascript #APIs</p>
-            <br />
-            <a href="https://mohamedisaaq0.github.io/group-project-1/"
-              ><button class="button is-rounded is-link">Website</button></a
-            >
-            <a href="https://github.com/mohamedisaaq0/group-project-1"
-              ><button class="button is-rounded is-link">Repository</button></a
-            >
-          </div>
-        </article>
       </div>
-      <br />
+    </section>
+    <!-- End About Section -->
 
-      <!-- code quiz -->
-      <div class="box grey-background">
-        <article class="media title-description">
-          <figure class="media-left">
-            <p>
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Code College</h1>
+              <h2>Group Project</h2>
+              <p>
+                we are an online coding academy that is student-centred that
+                prepares students for coding. Providing a progress tracker for
+                basic languages such as HTML and CSS to more advanced languages
+                such as HTML, JavaScript and many more! This application is
+                currently a prototype and is not yet fully built out. We are
+                working hard to make it a fully fledged application. We hope you
+                enjoy it as much as we do!
+                <br />
+                <br />
+                Technologies used:
+                <br />
+                #Html / #Css / #Javascript / #SQL / #Sequilize / #Handlebars /
+                #Express.JS / #Node.JS
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/code-college.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Note Taker</h1>
+              <h2>Self Project</h2>
+              <p>
+                This is an Application to help you keep track of your notes. It
+                allows you to create, edit, and delete notes.
+                <br />
+                <br />
+                Technologies used:
+                <br />
+                #Html / #Css / #Javascript / #Express.JS / #Node.JS
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/expressNoteTaker_html_screenshot.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Tech Blog</h1>
+              <h2>Self Project</h2>
+              <p>COMING SOON!</p>
+            </div>
+            <div class="project-img">
+              <img src="./img/coming-soon.jpeg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Book Search</h1>
+              <h2>Group Project</h2>
+              <p>
+                In this Group project, we created a quick book search that
+                allows you to gather together quick relevant information we be
+                believed would be required when looking for a book.
+                <br />
+                <br />
+                Technologies used:
+                <br />
+                #Html / #Css / #Javascript / #APIs
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/book-search.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>info</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+            </div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>+44 7429237303</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
               <img
-                class="image is-250x290 has-shadow"
-                src="./assets/screenshots/code-quiz.png"
+                src="https://img.icons8.com/bubbles/100/000000/new-post.png"
               />
-            </p>
-          </figure>
-          <br />
-          <div class="media-content">
-            <div class="content">
-              <h3 class="is">Code Quiz</h3>
-              <br />
-              Javascript Quiz to test your knowledge and record your scores upon
-              completion of the quiz.
             </div>
-            <h4><strong>Technologies used:</strong></h4>
-            <p style="color: blue">#Html #Css #Javascript</p>
-            <br />
-            <a href=" https://mohamedisaaq0.github.io/4-code-quiz/"
-              ><button class="button is-rounded is-link">Website</button></a
-            >
-            <a href="https://github.com/mohamedisaaq0/4-code-quiz"
-              ><button class="button is-rounded is-link">Repository</button></a
-            >
-          </div>
-        </article>
-      </div>
-      <br />
-
-      <!-- day planner -->
-      <div class="box grey-background">
-        <article class="media title-description">
-          <figure class="media-left border-img">
-            <img
-              class="image is-250x290"
-              src="./assets/screenshots/day-planner.png"
-            />
-          </figure>
-          <br />
-          <div class="media-content">
-            <div class="content">
-              <h2 class="is">Day Planner</h2>
-              <br />
-              Perfect way to plan your busy work day ahead with this day
-              planner. it has features of showing the current event in real
-              time, color coding the current and next event and much more!
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>mohamedisaaq0@gmail.com</h2>
             </div>
-            <h4><strong>Technologies used:</strong></h4>
-            <p style="color: blue">#Html #Css #Javascript #JQuery</p>
-            <br />
-            <a href=" https://mohamedisaaq0.github.io/5-day-planner/"
-              ><button class="button is-rounded is-link">Website</button></a
-            >
-            <a href="https://github.com/mohamedisaaq0/5-day-planner"
-              ><button class="button is-rounded is-link">Repository</button></a
-            >
           </div>
-        </article>
-      </div>
-
-      <!-- Password Generator -->
-      <div class="box grey-background">
-        <article class="media title-description">
-          <figure class="media-left border-img">
-            <img
-              class="image is-250x290"
-              src="./assets/screenshots/password-generator.png"
-            />
-          </figure>
-          <br />
-          <div class="media-content">
-            <div class="content">
-              <h2 class="is">Password Generator</h2>
-              <br />
-              The tile is self explanatory. Need a secure password generator,
-              look no further!
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
+              />
             </div>
-            <h4><strong>Technologies used:</strong></h4>
-            <p style="color: blue">#Html #Css #Javascript</p>
-            <br />
-            <a href="https://mohamedisaaq0.github.io/3-password-generator/"
-              ><button class="button is-rounded is-link">Website</button></a
-            >
-            <a href="https://github.com/mohamedisaaq0/3-password-generator"
-              ><button class="button is-rounded is-link">Repository</button></a
-            >
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Birmingham, United Kingdom</h2>
+            </div>
           </div>
-        </article>
+        </div>
       </div>
     </section>
+    <!-- End Contact Section -->
 
-    <!-- contact -->
-
-    <footer class="footer" id="contacts">
-      <h1 class="title is-size-1 pl-5">Contacts</h1>
-      <div class="pl-6 contacts">
-        <br />
-        <i class="fa-solid fa-phone fa-2x"></i>
-        <div class="contact-elements">
-          <a href="tel: +447429237303 ">+447429237303</a>
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://github.com/mohamedisaaq0"
+              ><img
+                src="https://img.icons8.com/plasticine/100/000000/github-squared.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.linkedin.com/in/mohamedisaaq0/"
+              ><img src="https://img.icons8.com/color/48/000000/linkedin.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="mailto: mohamedisaaq0@gmail.com"
+              ><img
+                src="https://img.icons8.com/color-glass/48/000000/gmail.png"
+            /></a>
+          </div>
         </div>
-        <br />
-        <i class="fa-brands fa-linkedin fa-2x has-text-link-dark"></i>
-        <div class="contact-elements">
-          <a href="https://www.linkedin.com/in/mohamedisaaq0/"
-            >https://www.linkedin.com/in/mohamedisaaq0/</a
-          >
-        </div>
-        <br />
-        <i class="fa-solid fa-envelope fa-2x has-text-danger"></i>
-        <div class="contact-elements">
-          <a href="mailto: mohamedisaaq0@gmail.com ">mohamedisaaq0@gmail.com</a>
-        </div>
+        <p>Copyright © 2022 Mohamed Hassan. All rights reserved</p>
       </div>
-    </footer>
+    </section>
+    <!-- End Footer -->
+    <script src="./app.js"></script>
   </body>
 </html>
