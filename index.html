@@ -1,305 +1,798 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8" />
+    <title>MohamedCodes</title>
+    <meta
+      name="description"
+      content="Offering web development and design services, specializing in creating scalable and user-friendly websites for small and medium businesses."
+    />
+    <meta name="author" content="MohamedCodes" />
+    <meta
+      name="keywords"
+      content="web development, web design, business websites, SEO, MohamedCodes, small business, medium business"
+    />
+    <meta name="google-site-verification" content="AySlw3gqYWToYoTCWf87zIGGm4hFskSjfASdHvWcxYw" />
+    <link rel="canonical" href="https://www.mohamedcodes.com/" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta property="og:title" content="MohamedCodes - Web Development & Design Services">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "MohamedCodes",
+        "url": "https://www.mohamedcodes.com",
+        "author": {
+          "@type": "Person",
+          "name": "MohamedCodes"
+        },
+        "description": "Expert web development services for small and medium businesses.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "MohamedCodes"
+        }
+      }
+    </script>
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- CSS
+   ================================================== -->
+
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="icon" type="image/png" href="./favicon.png" />
   </head>
 
-  <body>
-    <!-- Header -->
-    <section id="header">
-      <div class="header container">
-        <div class="nav-bar">
-          <div class="brand">
-            <a href="#hero">
-              <h1><span>P</span>ort<span>f</span>olio</h1>
-            </a>
+  <body id="top">
+    <!-- header 
+   ================================================== -->
+    <header>
+      <div class="row">
+        <div class="top-bar">
+          <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+          <div class="logo">
+            <a href="index.html"></a>
           </div>
-          <div class="nav-list">
-            <div class="hamburger">
-              <div class="bar"></div>
-            </div>
-            <ul>
-              <li><a href="#hero" data-after="Home">Home</a></li>
-              <li><a href="#projects" data-after="Projects">Projects</a></li>
-              <li><a href="#about" data-after="About">About Me</a></li>
+
+          <nav id="main-nav-wrap">
+            <ul class="main-navigation">
+              <li class="current">
+                <a class="smoothscroll" href="#intro" title="">Home</a>
+              </li>
+              <li><a class="smoothscroll" href="#about" title="">About</a></li>
+            
               <li>
-                <a href="https://github.com/mohamedisaaq0" data-after="Contact"
-                  >Github</a
-                >
+                <a class="smoothscroll" href="#resume" title="">Resume</a>
               </li>
               <li>
-                <a href="#contact" data-after="Contact">Contact</a>
+                <a class="smoothscroll" href="#portfolio" title="">Portfolio</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#services" title="">Services</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#contact" title="">Contact</a>
               </li>
             </ul>
+          </nav>
+        </div>
+        <!-- /top-bar -->
+      </div>
+      <!-- /row -->
+    </header>
+    <!-- /header -->
+
+    <!-- intro section
+   ================================================== -->
+    <section id="intro">
+      <div class="intro-overlay"></div>
+
+      <div class="intro-content">
+        <div class="row">
+          <div class="col-twelve">
+            <h5>Hello, World.</h5>
+            <h1>I'm Mohamed Hassan.</h1>
+
+            <p class="intro-position">
+              <span>Full-Stack Developer</span>
+            </p>
+
+            <a class="button stroke smoothscroll" href="#about" title=""
+              >More About Me</a
+            >
           </div>
         </div>
       </div>
-    </section>
-    <!-- End Header -->
+      <!-- /intro-content -->
 
-    <!-- Hero Section  -->
-    <section id="hero">
-      <div class="hero container">
-        <div>
-          <h1>Hello, <span></span></h1>
-          <h1>My Name is <span></span></h1>
-          <h1>Mohamed Hassan<span></span></h1>
-          <a href="#projects" type="button" class="cta">Projects</a>
-        </div>
-      </div>
+      <ul class="intro-social">
+        <li>
+          <a href="TEL:+447947210110"><i class="fa fa-phone"></i></a>
+        </li>
+        <li>
+          <a href="mailto:info@mohamedcodes.com"
+            ><i class="fa fa-envelope"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/mohamedcodes/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/mohamed_codes/"
+            ><i class="fa fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+      <!-- /intro-social -->
     </section>
-    <!-- End Hero Section  -->
+    <!-- /intro -->
 
-    <!-- About Section -->
+    <!-- about section
+   ================================================== -->
     <section id="about">
-      <div class="about container">
-        <div class="col-left">
-          <div class="about-img">
-            <img src="./img/profile.jpeg" alt="img" />
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>About</h5>
+          <h1>Let me introduce myself.</h1>
+
+          <div class="intro-info">
+            <img
+              src="./images/mohamedcodes-profile-pic.jpg"
+              alt="Profile Picture"
+            />
+
+            <p class="lead">
+              I'm a passionate web developer with a focus on creating efficient,
+              user-friendly solutions. With a strong background in both design
+              and functionality, I strive to build websites and applications
+              that not only look great but also perform seamlessly.
+            </p>
           </div>
         </div>
-        <div class="col-right">
-          <h1 class="section-title">About <span>me</span></h1>
-          <h2>Full Stack Web Developer</h2>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row about-content">
+        <div class="col-six tab-full">
+          <h3>Profile</h3>
           <p>
-            An aspiring full-stack developer who enjoys problem-solving and
-            creating user interfaces with vital customer service experience.
-            Currently, studying a Full-Stack Coding Bootcamp at the University
-            of Birmingham.
+            I specialize in modern web technologies, combining creativity with
+            technical skills to deliver top-tier web solutions. From front-end
+            development to backend optimization, I ensure that each project is
+            built with precision and attention to detail.
           </p>
-          <a
-            href="https://docs.google.com/document/d/10pcpGBVqZ341pAwWVZL4roXZbe274SGQ/"
-            download='Mohamed_Hassan_CV'
-            >Download Resume</a
+
+          <ul class="info-list">
+            <li>
+              <strong>Fullname:</strong>
+              <span>Mohamed Hassan</span>
+            </li>
+
+            <li>
+              <strong>Job:</strong>
+              <span>Freelancer, Full-Stack Developer</span>
+            </li>
+            <li>
+              <strong>Website:</strong>
+              <span>www.mohamedcodes.com</span>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <span>info@mohamedcodes.com</span>
+            </li>
+          </ul>
+          <!-- /info-list -->
+        </div>
+
+        <div class="col-six tab-full">
+          <h3>Skills</h3>
+          <p>
+            Below are some of the skills I've developed over the years. From
+            front-end development to backend optimization, I'm well-versed in a
+            variety of technologies and tools.
+          </p>
+
+          <ul class="skill-bars">
+            <li>
+              <div class="progress"><span></span></div>
+              <strong>HTML5 / CSS</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span></span></div>
+              <strong>react</strong>
+            </li>
+            <li>
+              <div class="progress percent70"><span></span></div>
+              <strong>SQL</strong>
+            </li>
+            <li>
+              <div class="progress percent75"><span></span></div>
+              <strong>Express.js</strong>
+            </li>
+            <li>
+              <div class="progress percent75"><span></span></div>
+              <strong>Node.js</strong>
+            </li>
+          </ul>
+          <!-- /skill-bars -->
+        </div>
+      </div>
+
+      <div class="row button-section">
+        <div class="col-twelve">
+          <a href="#contact" title="Hire Me" class="button stroke smoothscroll"
+            >Hire Me</a
           >
         </div>
       </div>
     </section>
-    <!-- End About Section -->
+    <!-- /process-->
 
-    <!-- Projects Section -->
-    <section id="projects">
-      <div class="projects container">
-        <div class="projects-header">
-          <h1 class="section-title">Recent <span>Projects</span></h1>
+ 
+    <!-- resume Section
+   ================================================== -->
+    <!-- Resume Section
+   ================================================== -->
+    <section id="resume" class="grey-section">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Resume</h5>
+          <h1>More of My Credentials</h1>
+          <p class="lead">
+            With a focus on modern web solutions, I’ve refined my skills through
+            various projects. My work emphasizes quality, user-friendly designs,
+            and seamless functionality.
+          </p>
         </div>
-        <div class="all-projects">
-          <div class="project-item">
-            <div class="project-info">
-              <h1>SPA WEBPAGE</h1>
-              <h2>Group Project</h2>
-              <p>
-                COMING SOON!
-                <br />
-                <br />
-                Technologies used:
-                <br />
-                #React / #Javascript / #MongoDB / #Graphql / #Apollo / #Node.js
-              </p>
-            </div>
-            <div class="project-img">
-              <a href="https://desolate-reef-02788.herokuapp.com/">
-                <img src="./img/coming-soon.jpeg" alt="img"
-              /></a>
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Code College</h1>
-              <h2>Group Project</h2>
-              <p>
-                we are an online coding academy that is student-centred that
-                prepares students for coding. Providing a progress tracker for
-                basic languages such as HTML and CSS to more advanced languages
-                such as HTML, JavaScript and many more! This application is
-                currently a prototype and is not yet fully built out. We are
-                working hard to make it a fully fledged application. We hope you
-                enjoy it as much as we do!
-                <br />
-                <br />
-                Technologies used:
-                <br />
-                #Html / #Css / #Javascript / #SQL / #Sequelize / #Handlebars /
-                #Express.JS / #Node.JS
-              </p>
-            </div>
-            <div class="project-img">
-              <a href="https://desolate-reef-02788.herokuapp.com/">
-                <img src="./img/code-college.png" alt="img"
-              /></a>
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Text Editor</h1>
-              <h2>Self Project</h2>
-              <p>
-                This is a single-page text editor that runs in a browser and
-                meets the PWA criteria. It features a number of data persistence
-                techniques that serve as redundancy in case one of the options
-                is not supported by the browser. The application is deployed on
-                Heroku and also functions offline.
-                <br />
-                <br />
-                Technologies used:
-                <br />
-                #HTML / #CSS / #Javascript / #NodeJS / #ExpressJS
-              </p>
-            </div>
-            <div class="project-img">
-              <a href="https://secret-retreat-05082.herokuapp.com/">
-                <img src="./img/text-editor.png" alt="img"
-              /></a>
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Note Taker</h1>
-              <h2>Self Project</h2>
-              <p>
-                This is an Application to help you keep track of your notes. It
-                allows you to create, edit, and delete notes.
-                <br />
-                <br />
-                Technologies used:
-                <br />
-                #Html / #Css / #Javascript / #Express.JS / #Node.JS
-              </p>
-            </div>
-            <div class="project-img">
-              <a href="https://beautiful-lake-clark-33694.herokuapp.com/">
-                <img src="./img/expressNoteTaker_html_screenshot.png" alt="img"
-              /></a>
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Tech Blog</h1>
-              <h2>Self Project</h2>
-              <p>
-                This is a CMS-style blog site similar to a Wordpress site, where
-                developers can publish their blog posts and comment on other
-                developers’ posts as well. App is following the MVC paradigm in
-                its architectural structure, and uses Handlebars.js as the
-                templating language, Sequelize as the ORM, and the
-                express-session npm package for authentication. It was developed
-                over some starter code and deployed to Heroku.
-                <br />
-                <br />
-                Technologies used:
-                <br />
-                #Javascript / #Node.js / #Handlebars / #Model-View-Controller /
-                #MySQL
-              </p>
-            </div>
+      </div>
+      <!-- /section-intro -->
 
-            <div class="project-img">
-              <a href="https://secret-chamber-33052.herokuapp.com/">
-                <img src="./img/tech-blog.png" alt="img" />
-              </a>
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Work Experience</h2>
+        </div>
+        <!-- /resume-header -->
+
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <!-- Timeline Block 1 -->
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+              <div class="timeline-header">
+                <h3>Founder</h3>
+                <p>September 2024 - Present</p>
+              </div>
+              <div class="timeline-content">
+                <h4>MohamedCodes</h4>
+                <p>
+                  Leading the development of innovative web solutions and
+                  overseeing project execution with a focus on delivering
+                  high-quality results.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Book Search</h1>
-              <h2>Group Project</h2>
+            <!-- /timeline-block -->
+
+            <!-- Timeline Block 2 -->
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+              <div class="timeline-header">
+                <h3>Freelance Developer</h3>
+                <p>April 2024 - June 2024</p>
+              </div>
+              <div class="timeline-content">
+                <h4>Freelancing</h4>
+                <p>
+                  Worked on a variety of web development projects, providing
+                  custom solutions and ensuring client satisfaction through
+                  tailored services.
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <!-- Timeline Block 3 -->
+            <div class="timeline-block"></div>
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
+            </div>
+            <div class="timeline-header">
+              <h3>Instructional Staff</h3>
+              <p>November 2022 - April 2024</p>
+            </div>
+            <div class="timeline-content">
+              <h4>Front-End Coding Bootcamp - EdX</h4>
               <p>
-                In this Group project, we created a quick book search that
-                allows you to gather together quick relevant information we be
-                believed would be required when looking for a book. one of the
-                APIs used was a premium which required subscription, so some of
-                the elements might not work <br />
-                <br />
-                Technologies used:
-                <br />
-                #Html / #Css / #Javascript / #APIs
+                Instructed students in HTML, CSS, JavaScript, and React.
+                Provided code reviews, debugging support, and guidance on
+                building responsive web applications.
               </p>
             </div>
-            <div class="project-img">
-              <a href="https://mohamedisaaq0.github.io/group-project-1/">
-                <img src="./img/book-search.png" alt="img"
-              /></a>
+          </div>
+          <!-- /timeline-block -->
+
+          <!-- Timeline Block 4 -->
+          <div class="timeline-block">
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
             </div>
+            <div class="timeline-header">
+              <h3>Full-Stack Developer</h3>
+              <p>March 2022 - September 2022</p>
+            </div>
+            <div class="timeline-content">
+              <h4>University of Birmingham</h4>
+              <p>
+                Gained comprehensive experience in full-stack development,
+                working on various aspects of web development from front-end to
+                back-end.
+              </p>
+            </div>
+          </div>
+          <!-- Timeline Block 4 -->
+          <div class="timeline-block">
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
+            </div>
+            <div class="timeline-header">
+              <h3>Network Support Analyst</h3>
+              <p>July 2018 - March 2019</p>
+            </div>
+            <div class="timeline-content">
+              <h4>AT&T Czechia</h4>
+              <p>
+                Provided technical support and troubleshooting for network
+                issues, collaborated with teams to enhance network performance,
+                and ensured efficient resolution of connectivity problems.
+              </p>
+            </div>
+          </div>
+
+          <!-- /timeline-block -->
+        </div>
+        <!-- /timeline-wrap -->
+      </div>
+      <!-- /col-twelve -->
+
+      <!-- /resume-timeline -->
+
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Education</h2>
+        </div>
+        <!-- /resume-header -->
+
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <!-- Timeline Block 1 -->
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+              <div class="timeline-header">
+                <h3>University of Birmingham</h3>
+                <p>2022</p>
+              </div>
+              <div class="timeline-content">
+                <h4>Full-Stack Web Development Bootcamp</h4>
+                <p>
+                  Completed an intensive bootcamp focusing on modern web
+                  development practices and technologies.
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <!-- Timeline Block 2 -->
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+              <div class="timeline-header">
+                <h3>Cisco</h3>
+                <p>2017</p>
+              </div>
+              <div class="timeline-content">
+                <h4>Cisco Certified Network Associate - Security</h4>
+                <p>
+                  Earned certification in network security, demonstrating
+                  expertise in securing network infrastructures.
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <!-- Timeline Block 3 -->
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+              <div class="timeline-header">
+                <h3>Cisco</h3>
+                <p>2016</p>
+              </div>
+              <div class="timeline-content">
+                <h4>
+                  Cisco Certified Network Associate - Routing and Switching
+                </h4>
+                <p>
+                  Acquired certification in routing and switching, highlighting
+                  skills in managing network routing and switching technologies.
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+          </div>
+          <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
+      </div>
+      <!-- /resume-timeline -->
+    </section>
+    <!-- /resume -->
+
+        <!-- Portfolio Section
+   ================================================== -->
+    <section id="portfolio">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Portfolio</h5>
+          <h1>Check Out Some of My Works.</h1>
+
+          <p class="lead">
+            Featured projects demonstrating my skills in web development,
+            design, and problem-solving for real-world applications.
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro-->
+
+      <div class="row portfolio-content">
+        <div class="col-twelve">
+          <!-- portfolio-wrapper -->
+          <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img
+                  src="./images/portfolio/screenshot_masjidalsunnah.png"
+                  alt="Screenshot of Masjid Al-Sunnah homepage"
+                />
+                <a href="#modal-01" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Masjid Al-Sunnah</h3>
+                      <span class="folio-types"> Front-End Development</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div id="modal-01" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img
+                  src="./images/portfolio/modals/masjidalsunnah_logoheader.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="description-box">
+                <h4>Masjid Al Sunnah</h4>
+                <p>
+                  A comprehensive platform supporting the masjid and madrasah,
+                  featuring Islamic education resources, secure donations,
+                  prayer times, and community services for spiritual
+                  development.
+                </p>
+                <div class="categories">Web Design and Development</div>
+              </div>
+
+              <div class="link-box">
+                <a href="http://www.masjidalsunnah.org">Details</a>
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-01 -->
           </div>
         </div>
       </div>
     </section>
-    <!-- End Projects Section -->
 
-    <!-- Contact Section -->
+    <!-- services Section
+   ================================================== -->
+    <section id="services">
+      <div class="overlay"></div>
+
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Services</h5>
+          <h1>How I Can Help You</h1>
+
+          <p class="lead">
+            Discover how my expertise can elevate your business with tailored
+            web solutions and exceptional user experiences.
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row services-content">
+        <div id="owl-slider" class="owl-carousel services-list">
+          <div class="service">
+            <span class="icon"><i class="icon-earth"></i></span>
+
+            <div class="service-content">
+              <h3>Web Design</h3>
+
+              <p class="desc">
+                Transform your ideas into visually stunning and user-friendly
+                websites. I focus on creating designs that captivate and engage
+                your audience.
+              </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-window"></i></span>
+
+            <div class="service-content">
+              <h3>Web Development</h3>
+
+              <p class="desc">
+                From concept to completion, I develop robust and scalable web
+                applications that meet your business needs and enhance your
+                online presence.
+              </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-toggles"></i></span>
+
+            <div class="service-content">
+              <h3>UI/UX Design</h3>
+
+              <p class="desc">
+                Crafting intuitive and engaging user experiences that make your
+                website easy to navigate and interact with, ensuring a seamless
+                user journey.
+              </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-chat"></i></span>
+
+            <div class="service-content">
+              <h3>Consultancy</h3>
+
+              <p class="desc">
+                Offering expert advice and strategic insights to help you make
+                informed decisions and achieve your digital goals effectively.
+              </p>
+            </div>
+          </div>
+          <!-- /service -->
+        </div>
+        <!-- /services-list -->
+      </div>
+      <!-- /services-content -->
+    </section>
+
+    <!-- /services -->
+
+    <!-- contact
+   ================================================== -->
+
     <section id="contact">
-      <div class="contact container">
-        <div>
-          <h1 class="section-title">Contact <span>info</span></h1>
-        </div>
-        <br /><br /><br />
-        <div class="contact-items">
-          <div class="contact-item">
-            <div class="icon">
-              <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
-            </div>
-            <div class="contact-info">
-              <h1>Phone</h1>
-              <h2>+44 7429237303</h2>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <img
-                src="https://img.icons8.com/bubbles/100/000000/new-post.png"
-              />
-            </div>
-            <div class="contact-info">
-              <h1>Email</h1>
-              <h2>mohamedisaaq0@gmail.com</h2>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <img
-                src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
-              />
-            </div>
-            <div class="contact-info">
-              <h1>Address</h1>
-              <h2>Birmingham, United Kingdom</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Contact Section -->
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Contact</h5>
+          <h1>Let's Build Something Great Together.</h1>
 
-    <!-- Footer -->
-    <section id="footer">
-      <div class="footer container">
-        <div class="social-icon">
-          <div class="social-item">
-            <a href="https://github.com/mohamedisaaq0"
-              ><img
-                src="https://img.icons8.com/plasticine/100/000000/github-squared.png"
-            /></a>
-          </div>
-          <div class="social-item">
-            <a href="https://www.linkedin.com/in/mohamedisaaq0/"
-              ><img src="https://img.icons8.com/color/48/000000/linkedin.png"
-            /></a>
-          </div>
-          <div class="social-item">
-            <a href="mailto: mohamedisaaq0@gmail.com"
-              ><img
-                src="https://img.icons8.com/color-glass/48/000000/gmail.png"
-            /></a>
+          <p class="lead">
+            Whether you're looking to develop a new website, optimize your
+            current platform, or need a custom solution, we're here to help.
+            Reach out to discuss your project, and let's create a digital
+            experience that drives results.
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row contact-form">
+        <div class="col-twelve">
+          <!-- form -->
+          <form name="contactForm" id="contactForm" method="post" action="">
+            <fieldset>
+              <div class="form-field">
+                <input
+                  name="contactName"
+                  type="text"
+                  id="contactName"
+                  placeholder="Name"
+                  value=""
+                  minlength="2"
+                  required=""
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactEmail"
+                  type="email"
+                  id="contactEmail"
+                  placeholder="Email"
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactSubject"
+                  type="text"
+                  id="contactSubject"
+                  placeholder="Subject"
+                  value=""
+                />
+              </div>
+              <div class="form-field">
+                <textarea
+                  name="contactMessage"
+                  id="contactMessage"
+                  placeholder="message"
+                  rows="10"
+                  cols="50"
+                  required=""
+                ></textarea>
+              </div>
+              <div class="form-field">
+                <button class="submitform">Submit</button>
+                <div id="submit-loader">
+                  <div class="text-loader">Sending...</div>
+                  <div class="s-loader">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+          <!-- Form End -->
+
+          <!-- contact-warning -->
+          <div id="message-warning"></div>
+          <!-- contact-success -->
+          <div id="message-success">
+            <i class="fa fa-check"></i>Your message was sent, thank you!<br />
           </div>
         </div>
-        <p>Copyright © 2022 Mohamed Hassan. All rights reserved</p>
+        <!-- /col-twelve -->
       </div>
+      <!-- /contact-form -->
+
+      <div class="row contact-info">
+        <div class="col-four tab-full">
+          <div class="icon"><i class="icon-mail"></i></div>
+
+          <h5>Email Me At</h5>
+
+          <a href="mailto:info@mohamedcodes.com"
+            ><p style="color: #888888">info@mohamedcodes.com</p></a
+          >
+        </div>
+
+        <div class="col-four tab-full collapse" id="phone">
+          <div class="icon">
+            <i class="icon-phone"></i>
+          </div>
+
+          <h5>Call Me At</h5>
+
+          <a href="tel:+447947210110"
+            ><p style="color: #888888">+44 7947 210110</p></a
+          >
+        </div>
+
+        <div class="col-four tab-full">
+          <div class="icon">
+            <i class="icon-chat"></i>
+          </div>
+
+          <h5>Whatsapp</h5>
+
+          <a href="https://wa.me/447947210110"
+            ><p style="color: #888888">click here to start chat</p></a
+          >
+        </div>
+      </div>
+      <!-- /contact-info -->
     </section>
-    <!-- End Footer -->
-    <script src="./app.js"></script>
+    <!-- /contact -->
+
+    <!-- footer
+   ================================================== -->
+
+    <footer>
+      <div class="row">
+        <div class="col-six tab-full pull-right social">
+          <ul class="footer-social">
+            <li>
+              <a href="https://www.linkedin.com/company/mohamedcodes/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/mohamed_codes/"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-eight tab-full">
+          <div class="copyright">
+            <span>© Copyright 2023 </span>
+            <span>Mohamed Codes</span>
+          </div>
+        </div>
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"
+            ><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+      </div>
+      <!-- /row -->
+    </footer>
+
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+   ================================================== -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
-
